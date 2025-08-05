@@ -25,7 +25,9 @@ This project showcases a hybrid approach combining Proximal Policy Optimization 
    ```
 
 ## 🧠 Approaches
-1. 📘 Proximal Policy Optimization (PPO)
+
+# 1. 📘 Proximal Policy Optimization (PPO)
+
 Train an agent end-to-end using visual observations (RGB-D) to navigate to target positions.
 
 Trains in AI2-THOR using OpenAI Gym interface
@@ -34,7 +36,8 @@ Neural network maps image inputs to actions
 
 Learns locomotion policies with no prior maps
 
-2. 🧩 Modular Navigation Architecture (MNA)
+# 2. 🧩 Modular Navigation Architecture (MNA)
+
 Enhances navigation by combining classic robotics with learning:
 
 Perception: Preprocesses depth maps (denoising, filtering)
@@ -45,7 +48,8 @@ Planning: Graph-based A* search in 3D for waypoint generation
 
 Policy: Learns high-level control using PPO on modular inputs
 
-🎯 Objectives
+## 🎯 Objectives
+
 Develop efficient autonomous agents for real-time indoor navigation.
 
 Benchmark end-to-end RL vs. modular hybrid systems.
