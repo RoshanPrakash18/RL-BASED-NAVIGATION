@@ -130,36 +130,18 @@ pip install --upgrade ai2thor ai2thor-colab prior networkx pyvirtualdisplay
 ---
 
 ## 📚 References
+J. Biswas, M. M. Veloso. “Depth Camera Based Indoor Mobile Robot Navigation”. ICRA, 2012.
 
-```bibtex
-@article{biswas2012depth,
-  title={Depth Camera Based Indoor Mobile Robot Navigation},
-  author={Biswas, Joydeep and Veloso, Manuela M},
-  journal={ICRA},
-  year={2012}
-}
+D. Maier et al. “Real-Time Navigation in 3D Environments”. Humanoids, 2012.
 
-@inproceedings{maier2012navigation,
-  title={Real-Time Navigation in 3D Environments},
-  author={Maier, Daniel and et al.},
-  booktitle={Humanoids},
-  year={2012}
-}
+Z. Hong et al. “Virtual-to-Real Learning for Visual Control”. IJCAI, 2018.
 
-@article{hong2018virtual,
-  title={Virtual-to-Real Learning for Visual Control},
-  author={Hong, Z. and others},
-  journal={IJCAI},
-  year={2018}
-}
+H.-T. L. Chiang et al. “Learning Navigation Behaviors End-to-End”. CoRR abs/1809.10124.
 
-@article{chiang2018end,
-  title={Learning Navigation Behaviors End-to-End},
-  author={Chiang, H.-T. L. and et al.},
-  journal={arXiv:1809.10124},
-  year={2018}
-```
+📎 Sim-to-Real Supplement (Google Drive)
 
+📬 Contact & Collaboration
+<p align="center"> <a href="mailto:codetoroshan@gmail.com"> <img src="https://img.shields.io/badge/Email-codetoroshan@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" /> </a> <a href="https://www.linkedin.com/in/roshanprakash/"> <img src="https://img.shields.io/badge/LinkedIn-Roshan%20Prakash-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /> </a> <a href="https://roshanprakash.vercel.app/"> <img src="https://img.shields.io/badge/Portfolio-roshanprakash.vercel.app-121212?style=for-the-badge&logo=vercel&logoColor=white" /> </a> </p>
 
 
 
