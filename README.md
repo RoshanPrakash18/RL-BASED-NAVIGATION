@@ -68,7 +68,7 @@ The principal output is a trained autonomous navigation agent capable of moving 
 
 ✅ Ran ablation studies to test each module’s contribution
 
-🔍 Real-World Applications
+## 🔍 Real-World Applications
 
 🤖 Home assistant robots
 
