@@ -1,11 +1,21 @@
-# Project Title
+# 🧭 Autonomous Navigation Agents
+Smart Indoor Navigation with Deep Reinforcement Learning and Modular Robotics
 
 ## Description
-The project is a daring endeavor at the intersection of robotics and artificial intelligence. Its goal is to equip machines, such as service robots, to autonomously navigate through complex indoor environments, just as humans do. The project scope leaps forward in the field of advanced machine learning for applications ranging from smart homes to industrial automation.
+This project showcases a hybrid approach combining Proximal Policy Optimization (PPO) and classical robotic localization and planning techniques to train agents that autonomously navigate cluttered indoor environments. Built using the AI2-THOR simulation framework, this system lays the foundation for real-world robotic applications in homes, hospitals, warehouses, and smart environments.
 
-The project leverages reinforcement learning (RL), inspired by biological psychology, where an agent maximizes the sum of reward signals by making actions in an environment. This is achieved through the simulation of sensor measurements, enabling intelligent navigational decisions similar to human spatial awareness.
+🎯 Key Features
+🧠 Deep Reinforcement Learning using PPO
 
-The key contribution of this project is the comprehensive navigation system that merges RL and localization techniques to autonomously navigate indoor spaces. The Proximal Policy Optimization (PPO) algorithm implemented using the PyTorch framework optimizes policies to make informed movements based on the environment’s feedback.
+🗺️ 3D Path Planning with A* and graph-based navigation
+
+🧭 Particle Filter-based Localization
+
+👁️‍🗨️ Depth-based Perception module with sensor preprocessing
+
+🏡 Simulated environments via AI2-THOR
+
+🛠️ Modular and extensible architecture for sim-to-real transfer
 
 ## Installation Instructions
 1. Clone the repository.
