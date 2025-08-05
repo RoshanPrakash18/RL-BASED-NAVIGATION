@@ -24,11 +24,33 @@ This project showcases a hybrid approach combining Proximal Policy Optimization 
    pip install --upgrade ai2thor ai2thor-colab prior networkx pyvirtualdisplay
    ```
 
-## Approach 1: PPO
-This approach implements the Proximal Policy Optimization (PPO) algorithm for training an agent to navigate through indoor environments. The agent learns to make decisions based on the state of the environment and optimizes its policy using reinforcement learning techniques.
+## 🧠 Approaches
+1. 📘 Proximal Policy Optimization (PPO)
+Train an agent end-to-end using visual observations (RGB-D) to navigate to target positions.
 
-## Approach 2: MNA
-This approach focuses on the implementation of a 3D path planner and localization techniques to enhance the navigation capabilities of the agent. It utilizes depth images and a perception module to process sensor data and make informed navigation decisions.
+Trains in AI2-THOR using OpenAI Gym interface
+
+Neural network maps image inputs to actions
+
+Learns locomotion policies with no prior maps
+
+2. 🧩 Modular Navigation Architecture (MNA)
+Enhances navigation by combining classic robotics with learning:
+
+Perception: Preprocesses depth maps (denoising, filtering)
+
+Localization: Tracks pose via action-based updates
+
+Planning: Graph-based A* search in 3D for waypoint generation
+
+Policy: Learns high-level control using PPO on modular inputs
+
+🎯 Objectives
+Develop efficient autonomous agents for real-time indoor navigation.
+
+Benchmark end-to-end RL vs. modular hybrid systems.
+
+Bridge the sim-to-real gap using low-cost simulation and robust sensor models.
 
 ## Aims and Objectives
 The objective of this project is to implement a robust algorithm to navigate the robot efficiently using a deep learning model, overcoming the gap between virtual and real-world environments under a low-cost budget while ensuring user safety.
@@ -36,8 +58,25 @@ The objective of this project is to implement a robust algorithm to navigate the
 ## Outputs
 The principal output is a trained autonomous navigation agent capable of moving through simulated indoor environments. The agent can plan and execute pathways to predetermined goals, with visualizations showing intended pathways and agent trajectories.
 
-## Evaluation
-The project has successfully integrated AI2-THOR for modeling intelligent navigation settings and developed a PPO agent capable of learning and optimizing strategies for complex navigation settings.
+## 🧪 Experiments
+
+✅ Trained agents in 50+ AI2-THOR environments
+
+✅ Visualized planned and actual trajectories
+
+✅ Simulated sensor noise, occlusion, pose drift
+
+✅ Ran ablation studies to test each module’s contribution
+
+🔍 Real-World Applications
+
+🤖 Home assistant robots
+
+🏥 Autonomous navigation in hospitals
+
+📦 Indoor logistics and warehouse automation
+
+🎯 Last-mile robotic delivery agents
 
 ## References
 1. J. Biswas and M. V. Manuela. “Depth camera based indoor mobile robot localization and navigation”. In: Proc. Int. Conf. Robotics and Automation (ICRA). May 2012, pp. 1697–1702.
